@@ -13,7 +13,7 @@ For the predefined social graph of users, the program automatically builds "a fr
 <p>
 <form action="index.php" method="POST">
 <input type="hidden" name="task" value="generate" />
-<input type="button" value="Rebuild the graph" />
+<input type="submit" value="Rebuild the graph" />
 </form>
 </p>
 <p>For this demo, you can refer to the following randomly generated directed graph of user IDs ("social graph"):
