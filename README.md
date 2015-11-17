@@ -1,6 +1,6 @@
 # Six degrees of separation algorithm along with the PHP implementation
 
-Six degrees of separation is the theory that anyone on the planet can be connected to any other person on the planet through a chain of acquaintances that has no more than five intermediaries. This theory can be tested on relatively small set of people, representing users of a social network. For the predefined social graph of users, the program automatically builds "a friend of a friend" chain which connects any two users in a maximum of six steps, using the shortest path. The algorithm below is what I came up with for the social network I was building.
+Six degrees of separation is the theory that anyone on the planet can be connected to any other person on the planet through a chain of acquaintances that has no more than five intermediaries. This theory can be tested on relatively small set of people connected with a directed graph, representing users of a social network. The algorithm builds "a friend of a friend" chain, which connects any two users in the network. The algorithm below is what I came up with for the social network I was building.
 
 Demo: [http://hendricson.com/demo/6degrees/](http://hendricson.com/demo/6degrees/)
 
@@ -38,5 +38,7 @@ As a result of Step 2.3, the following sequence will be generated: IdI, IdI2, ..
 
 2. Configure database settings at
 *config.php*
+
+3. Click "Rebuild the graph" on the main page of the demo site to generate connection circles for the set of users.
 
 
